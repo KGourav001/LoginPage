@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Magic Lamp Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="lamp-area">
+
+            <div class="glow"></div>
+
+            <div class="lamp">
+
+                <div class="lamp-shade">
+                    <span>♥</span>
+                </div>
+
+                <div class="stand"></div>
+
+                <div class="base"></div>
+
+            </div>
+
+            <button class="chain" id="chain">
+                <span class="rope"></span>
+                <span class="ball">●</span>
+            </button>
+
+            <p>Pull the chain</p>
+
+        </div>
+
+        <div class="card">
+
+            <div class="form login active">
+
+                <h1>Welcome Back</h1>
+
+                <p class="subtitle">
+                    Login to continue
+                </p>
+
+                <form>
+
+                    <label>Username</label>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your username"
+                        required
+                    >
+
+                    <label>Password</label>
+
+                    <input
+                        type="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+                    <button class="submit">
+                        Login
+                    </button>
+
+                    <a href="#" class="forgot">
+                        Forgot Password?
+                    </a>
+
+                    <p class="switch">
+                        Don't have an account?
+                        <a href="#" id="registerLink">
+                            Register
+                        </a>
+                    </p>
+
+                </form>
+
+            </div>
+
+            <div class="form register">
+
+                <h1>Create Account</h1>
+
+                <p class="subtitle">
+                    Register your new account
+                </p>
+
+                <form>
+
+                    <label>Username</label>
+
+                    <input
+                        type="text"
+                        placeholder="Choose username"
+                        required
+                    >
+
+                    <label>Email</label>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label>Password</label>
+
+                    <input
+                        type="password"
+                        placeholder="Create password"
+                        required
+                    >
+
+                    <button class="submit">
+                        Register
+                    </button>
+
+                    <p class="switch">
+                        Already have an account?
+                        <a href="#" id="loginLink">
+                            Login
+                        </a>
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
